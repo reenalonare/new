@@ -1,6 +1,6 @@
 
 FROM python
-RUN mkdir /new
-COPY code.py /new/
-CMD["python","/new/code.py"]
+RUN mkdir /pyfile
+COPY code.py /pyfile/
+CMD[ "python3","/pyfile/code.py" ]
  
